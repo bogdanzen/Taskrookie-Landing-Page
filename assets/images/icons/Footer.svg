@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1298px" height="368px" viewBox="0 0 1298 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 17.9884584 17.9863504 17.9884584 17.9863504 0 0 0"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0.5,88.25 L489.533805,88.25" id="Line-Copy-2" stroke="#EBEBEB" stroke-linecap="square"></path>
+        <g id="Footer">
+            <g id="Group-7">
+                <g id="Group-6">
+                    <g id="Group-5" transform="translate(0.000000, 33.000000)">
+                        <text id="Copyright-2017---Tas" font-family="CircularStd-Medium, Circular Std" font-size="14" font-weight="400" fill="#000000">
+                            <tspan x="2" y="269">Copyright 2017 - Taskrookie Technologies GmbH</tspan>
+                        </text>
+                        <text id="Pre-launch-tasks" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="217" y="86">Pre-launch tasks</tspan>
+                        </text>
+                        <text id="Become-a-partner" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="385" y="86">Become a partner</tspan>
+                        </text>
+                        <text id="How-it-works" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="551" y="86">How it works</tspan>
+                        </text>
+                        <text id="Coming-soon" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="717" y="86">Coming soon</tspan>
+                        </text>
+                        <text id="Career" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="870" y="86">Career</tspan>
+                        </text>
+                        <text id="Facebook" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="217" y="140">Facebook</tspan>
+                        </text>
+                        <text id="office@taskrookie.co" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="217" y="192">office@taskrookie.com</tspan>
+                        </text>
+                        <text id="Instagram" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="384" y="140">Instagram</tspan>
+                        </text>
+                        <text id="Twitter" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="551" y="140">Twitter</tspan>
+                        </text>
+                        <text id="LinkedIn" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="718" y="140">LinkedIn</tspan>
+                        </text>
+                        <text id="Startus.cc" font-family="CircularStd-Book, Circular Std" font-size="17" font-weight="300" letter-spacing="0.271999985" fill="#979797">
+                            <tspan x="870" y="140">Startus.cc</tspan>
+                        </text>
+                        <text id="Impressum" font-family="CircularStd-Medium, Circular Std" font-size="14" font-weight="400" fill="#000000">
+                            <tspan x="1039.146" y="269">Impressum</tspan>
+                        </text>
+                        <text id="Press-kit" font-family="CircularStd-Medium, Circular Std" font-size="14" font-weight="400" fill="#000000">
+                            <tspan x="939.876" y="269">Press kit</tspan>
+                        </text>
+                        <path d="M2.5,98 L92.0893409,98" id="Line-Copy-3" stroke="#005C56" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M2.5,152 L145.001563,152" id="Line-Copy-4" stroke="#005C56" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M2.5,204 L78,204" id="Line-Copy-5" stroke="#005C56" stroke-width="2" stroke-linecap="round"></path>
+                        <text id="About-Us" font-family="CircularStd-Bold, Circular Std" font-size="18" font-weight="bold" fill="#7E7E7E">
+                            <tspan x="4" y="86">About Us</tspan>
+                        </text>
+                        <text id="Connect-with-us" font-family="CircularStd-Bold, Circular Std" font-size="18" font-weight="bold" fill="#7E7E7E">
+                            <tspan x="4" y="140">Connect with us</tspan>
+                        </text>
+                        <text id="Contact" font-family="CircularStd-Bold, Circular Std" font-size="18" font-weight="bold" fill="#7E7E7E">
+                            <tspan x="4" y="192">Contact</tspan>
+                        </text>
+                        <path d="M0.5,1.5 L1109.5018,1.5" id="Line-3" stroke="#F2F2F2" stroke-linecap="square"></path>
+                    </g>
+                    <text id="^-Back-to-top" font-family="CircularStd-Medium, Circular Std" font-size="14" font-weight="400" fill="#000000">
+                        <tspan x="1026" y="14">^ Back to top</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-5" fill="#FFFFFF" x="159" y="303" width="39" height="65"></rect>
+            </g>
+            <g id="Facebook" fill="#000000">
+                <g id="Face" transform="translate(5.000000, 0.000000)">
+                    <path d="M1.77613784,3.41066403 L1.77613784,5.83444894 L0,5.83444894 L0,8.79899958 L1.77613784,8.79899958 L1.77613784,17.609739 L5.42477793,17.609739 L5.42477793,8.7999779 L7.87326539,8.7999779 C7.87326539,8.7999779 8.10268115,7.37848064 8.21445408,5.82393201 L5.43896355,5.82393201 L5.43896355,3.79661081 C5.43896355,3.49382113 5.83640558,3.0868405 6.23017891,3.0868405 L8.21836736,3.0868405 L8.21836736,0 L5.51453868,0 C1.68637709,0 1.77613784,2.9674856 1.77613784,3.41066403 Z" id="Fill-1"></path>
+                </g>
+            </g>
+            <g id="Instagram" transform="translate(37.000000, 0.000000)">
+                <g id="Insta">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M4.86043228,1.45330583 C2.98172752,1.45330583 1.45330583,2.98172752 1.45330583,4.86043228 L1.45330583,13.1280262 C1.45330583,15.0067309 2.98172752,16.5351877 4.86043228,16.5351877 L13.1280262,16.5351877 C15.0067309,16.5351877 16.5351877,15.0067309 16.5351877,13.1280262 L16.5351877,4.86043228 C16.5351877,2.98172752 15.0067309,1.45330583 13.1280262,1.45330583 L4.86043228,1.45330583 Z M13.1280262,17.9884584 L4.86043228,17.9884584 C2.18039791,17.9884584 0,15.8080605 0,13.1280262 L0,4.86043228 C0,2.18039791 2.18039791,0 4.86043228,0 L13.1280262,0 C15.8080605,0 17.9884584,2.18039791 17.9884584,4.86043228 L17.9884584,13.1280262 C17.9884584,15.8080605 15.8080605,17.9884584 13.1280262,17.9884584 L13.1280262,17.9884584 Z" id="Fill-1" fill="#000000" mask="url(#mask-2)"></path>
+                    <path d="M9.03452487,6.45333218 C8.90804352,6.45333218 8.7815973,6.46260748 8.65602943,6.48126347 C7.97422469,6.58237829 7.37263021,6.9429204 6.96198744,7.49652223 C6.55134466,8.05012407 6.38094618,8.73045319 6.48206099,9.41225792 C6.58314067,10.0940275 6.94368278,10.6956571 7.49728461,11.1062648 C8.05088645,11.5169076 8.73121556,11.6874466 9.4130203,11.5861912 C10.8204766,11.377497 11.795683,10.0626531 11.5869887,8.65523192 C11.4190496,7.52283738 10.5454148,6.6492026 9.4130203,6.48129861 C9.28745243,6.46260748 9.16097108,6.45333218 9.03452487,6.45333218 Z M9.02598737,13.0682013 C8.16707362,13.0682013 7.33401827,12.7945448 6.63151978,12.273512 C5.76614142,11.6316542 5.20252648,10.6911952 5.04445993,9.62541413 C4.88639338,8.5596331 5.15288255,7.49610063 5.79474026,6.63072227 C6.43659797,5.76534391 7.37705706,5.20172897 8.44287322,5.04366242 C8.83545728,4.98544586 9.23359245,4.98544586 9.62621164,5.04366242 C10.4886036,5.17151398 11.2702935,5.56501151 11.8867495,6.18146755 C12.5032407,6.79795872 12.8967031,7.57961345 13.0245898,8.44204058 C13.1826564,9.50782161 12.9161672,10.5713541 12.2743095,11.4366973 C11.6324518,12.3020757 10.6919927,12.8656906 9.62617651,13.0237572 C9.4256333,13.0535154 9.2250901,13.0682013 9.02598737,13.0682013 L9.02598737,13.0682013 Z" id="Fill-4" fill="#000000" mask="url(#mask-2)"></path>
+                    <path d="M12.7266353,5.45327069 C12.5354377,5.45327069 12.3481399,5.37576573 12.2128049,5.24046582 C12.0775401,5.10513078 12,4.91814919 12,4.72663535 C12,4.5351215 12.077505,4.34813991 12.2128049,4.21284 C12.3481399,4.07750496 12.5354377,4 12.7266353,4 C12.917833,4 13.1051308,4.07750496 13.2404307,4.21284 C13.3757306,4.34813991 13.4532707,4.53543771 13.4532707,4.72663535 C13.4532707,4.91783298 13.3757657,5.10513078 13.2404307,5.24046582 C13.1051308,5.37576573 12.917833,5.45327069 12.7266353,5.45327069" id="Fill-5" fill="#000000" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+            <g id="LinkedIn" transform="translate(74.000000, 0.000000)" fill="#000000">
+                <g id="Linked">
+                    <polygon id="Fill-1" points="0 18.0001068 4.00112485 18.0001068 4.00112485 6 0 6"></polygon>
+                    <path d="M16.3124527,7.34352208 C15.5187414,6.44759858 14.4693566,6 13.1646497,6 C12.6845597,6 12.2476673,6.06101141 11.8544992,6.18303423 C11.4615067,6.30578337 11.1294474,6.47737796 10.8584968,6.69799958 C10.5875462,6.91934752 10.3722608,7.12435312 10.2117625,7.3137427 C10.0595175,7.4931453 9.91060878,7.70232727 9.7659145,7.93929123 L9.7659145,6.27164604 L6,6.27164604 L6.01176519,6.83981479 C6.01931598,7.21859395 6.02265238,8.38616348 6.02265238,10.3430681 C6.02265238,12.2999728 6.01510159,14.8521018 6,18 L9.7659145,18 L9.7659145,11.4552553 C9.7659145,11.0530521 9.80770726,10.7338317 9.89146839,10.4970493 C10.0519667,10.0941198 10.2939433,9.75728596 10.6184518,9.4849136 C10.9429603,9.21254123 11.3449084,9.07635505 11.8257008,9.07635505 C12.4820931,9.07635505 12.9644659,9.31114003 13.2736972,9.7805284 C13.5824018,10.2500984 13.7374564,10.8992525 13.7374564,11.7276276 L13.7374564,18 L17.5024929,18 L17.5024929,11.2780317 C17.5024929,9.55010138 17.1059885,8.23853766 16.3124527,7.34352208 Z" id="Fill-2"></path>
+                    <path d="M2.01092822,0 C1.41237647,0 0.927763503,0.18933106 0.556425912,0.567275338 C0.185254171,0.945757997 0,1.42312351 0,2.00008973 C0,2.56933914 0.180112829,3.04526897 0.540338487,3.42734084 C0.900564144,3.80941271 1.37671878,4 1.96747559,4 L1.98887021,4 C2.59471934,4 3.08248346,3.80941271 3.4536552,3.42734084 C3.82482694,3.04526897 4.00692997,2.56933914 3.99979843,2.00008973 C3.99266689,1.42312351 3.80873952,0.945757997 3.44851386,0.567275338 C3.0882882,0.18933106 2.60881657,0 2.01092822,0 Z" id="Fill-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
