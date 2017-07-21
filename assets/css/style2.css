@@ -57,6 +57,10 @@
 .col-7 {
     width: 58.8333333%
 }
+.top-child{
+    padding: 10px 20px 20px 20px;
+    margin-top: 100px;
+}
 [class*="col-"] {
     position: relative;
     min-height: 1px;
@@ -459,18 +463,6 @@
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/circular/lineto-circular-book.eot?") format("eot"), url("../fonts/circular/lineto-circular-book.woff2") format("woff2"), url("../fonts/circular/lineto-circular-book.woff") format("woff"), url("../fonts/circular/lineto-circular-book.svg#circular") format("svg")
-}
-@font-face {
-    font-family: "copernicus";
-    font-style: normal;
-    font-weight: 300;
-    src: url("../fonts/copernicus/GalaxieCopernicus-Book.ttf") format("truetype"), url("../fonts/copernicus/GalaxieCopernicus-Book.eot?") format("eot"), url("../fonts/copernicus/GalaxieCopernicus-Book.woff") format("woff"), url("../fonts/copernicus/GalaxieCopernicus-Book.svg#copernicus") format("svg")
-}
-@font-face {
-    font-family: "copernicus";
-    font-style: italic;
-    font-weight: 300;
-    src: url("../fonts/copernicus/GalaxieCopernicus-BookItalic.ttf") format("truetype"), url("../fonts/copernicus/GalaxieCopernicus-BookItalic.eot?") format("eot"), url("../fonts/copernicus/GalaxieCopernicus-BookItalic.woff") format("woff"), url("../fonts/copernicus/GalaxieCopernicus-BookItalic.svg#copernicus") format("svg")
 }
 * {
     -webkit-box-sizing: border-box;
@@ -7862,7 +7854,7 @@ html.isIE .parallaxyeah:not(.parallax-disable-ie) img {
     background: #000 !important
 }
 .bg-blue {
-    background: #8eccce !important
+    background: #8e979797e !important
 }
 .bg-grey {
     background: #f7f7f3 !important
@@ -7927,7 +7919,7 @@ nav .logo svg {
 }
 nav .menu-toggle {
     top: 50%;
-    margin-top: -17.5px;
+    margin-top: -13px;
     position: relative;
     display: block;
     cursor: pointer;
@@ -7935,8 +7927,9 @@ nav .menu-toggle {
     min-height: 35px
 }
 nav .menu-toggle span {
-    width: 25px;
-    height: 2px;
+    width: 20px;
+    height: 3px;
+    border-radius: 2px;
     background: #000000;
     position: absolute;
     right: 5px;
@@ -7976,13 +7969,13 @@ nav .menu-toggle span:nth-child(3) {
 }
 .nav-fixed nav {
     position: fixed;
-    top: -130px;
+    top: -10px;
     left: 0;
     right: 0;
     width: 100%;
     z-index: 99;
     background: #ffffff;
-    border-bottom: 1px solid #eee;
+    border-bottom: 0px solid #eee;
     padding-top: 20px
 }
 #menu-screen {
@@ -7996,21 +7989,21 @@ nav .menu-toggle span:nth-child(3) {
 }
 .menu {
     opacity: 0;
-    background: #1f2021;
+    background: #005c56;
     position: fixed;
     z-index: 101;
-    width: 545px;
+    width: 580px;
     min-height: 100%;
     max-height: 100%;
     overflow: auto;
     right: 0;
     top: 0;
-    -webkit-transform: translateX(545px) translateZ(0);
-    transform: translateX(545px) translateZ(0);
-    -webkit-transition: -webkit-transform 0.68s cubic-bezier(0.64, 0.04, 0.35, 1);
-    transition: -webkit-transform 0.68s cubic-bezier(0.64, 0.04, 0.35, 1);
-    transition: transform 0.68s cubic-bezier(0.64, 0.04, 0.35, 1);
-    transition: transform 0.68s cubic-bezier(0.64, 0.04, 0.35, 1), -webkit-transform 0.68s cubic-bezier(0.64, 0.04, 0.35, 1)
+    -webkit-transform: translateX(580px) translateZ(0);
+    transform: translateX(580px) translateZ(0);
+    -webkit-transition: -webkit-transform 0.7s cubic-bezier(1,.01,.67,.25);
+    transition: -webkit-transform 0.7s cubic-bezier(1,.01,.67,.25);
+    transition: transform 0.7s cubic-bezier(1,.01,.67,.25);
+    transition: transform 0.7s cubic-bezier(1,.01,.67,.25), -webkit-transform 0.7s cubic-bezier(1,.01,.67,.25)
 }
 @media (max-width: 600px) {
     .menu {
@@ -8051,9 +8044,11 @@ nav .menu-toggle span:nth-child(3) {
     padding-top: 75px
 }
 .menu .menu-container {
-    padding: 0 60px 110px;
+    padding: 0 60px 0px;
     max-width: 100%;
-    min-height: 100%
+    height: 100%;
+
+    
 }
 @media (max-width: 600px) {
     .menu .menu-container {
@@ -8065,7 +8060,7 @@ nav .menu-toggle span:nth-child(3) {
 }
 .menu h3 {
     color: #575757;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     margin: 0 0 15px
@@ -8088,12 +8083,25 @@ nav .menu-toggle span:nth-child(3) {
     -webkit-font-smoothing: antialiased
 }
 .menu .page-links-wrapper {
-    padding-top: 40px
+    padding-top: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
 }
 @media (min-height: 700px) {
     .menu .page-links-wrapper {
-        padding-top: 50px
+        padding-top: 0px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
+}
+.brdr{
+    position: relative;
+    border-bottom: 1px solid !important;
+    border-color: #979797 !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .menu ul.page-links {
     margin: 0;
@@ -8102,41 +8110,48 @@ nav .menu-toggle span:nth-child(3) {
 }
 .menu ul.page-links li {
     padding: 0;
-    margin-bottom: 5px
+    margin-bottom: 15px
+    border-bottom: 1px;
+    border-color: #979797;
 }
 .menu ul.page-links a {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
     -webkit-font-smoothing: antialiased
 }
 .menu .copy {
     font-size: 14px;
     padding-bottom: 12px;
-    color: #575757;
+    color: #fff;
     position: absolute;
     left: 60px;
-    bottom: 40px;
+    bottom: 50px;
     -webkit-font-smoothing: antialiased
+}
+.flright{
+    position: relative;
+    float: right;
+
 }
 @media (max-width: 600px) {
     .menu .copy {
         left: 30px
     }
 }
-.menu .imprint-link {
+.menu .impressum-link {
     position: absolute;
-    right: 60px;
-    bottom: 40px
+    left: 60px;
+    bottom: 80px;
 }
 @media (max-width: 600px) {
-    .menu .imprint-link {
-        right: 30px
+    .menu .impressum-link {
+        right: 40px
     }
 }
-.menu .imprint-link a {
-    font-size: 14px;
+.menu .impressum-link a {
+    font-size: 17px;
     -webkit-font-smoothing: antialiased;
-    color: #575757 !important
+    color: #fff !important
 }
 .menu-container-bg {
     background: #1f2021;
@@ -9026,7 +9041,7 @@ html.device .video .html5-video {
 }
 html.device .anim-link.post-anim-link a .text-span,
 html:not(.device) .anim-link.post-anim-link a .text-span {
-    margin-bottom: 12px
+    margin-bottom: 8px
 }
 html.device .anim-link.post-anim-link a .link-line,
 html:not(.device) .anim-link.post-anim-link a .link-line {
@@ -20999,7 +21014,7 @@ footer .copyright {
     padding: 0;
     margin: 0
 }
-footer .imprint-link {
+footer .impressum-link {
     display: inline-block;
     color: #ADADAD;
     display: block;
@@ -21010,7 +21025,7 @@ footer .imprint-link {
     display: block
 }
 @media (min-width: 481px) {
-    footer .imprint-link {
+    footer .impressum-link {
         position: absolute;
         right: 0;
         top: 0;
@@ -21018,7 +21033,7 @@ footer .imprint-link {
         margin: 0
     }
 }
-footer .imprint-link:hover {
+footer .impressum-link:hover {
     color: #616161
 }
 span.footer-line {
@@ -23915,38 +23930,38 @@ span.footer-line {
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg)
 }
-.imprint.page .imprint-content {
+.impressum.page .impressum-content {
     max-width: 770px
 }
-.imprint.page header h1 {
+.impressum.page header h1 {
     margin: 30px 0;
     font-size: 61px;
     font-weight: bold
 }
-.imprint.page header h1 span {
+.impressum.page header h1 span {
     display: block
 }
 @media (min-width: 480px) and (max-width: 767px) {
-    .imprint.page header h1 {
+    .impressum.page header h1 {
         font-size: 40px
     }
 }
 @media (max-width: 480px) {
-    .imprint.page header h1 {
+    .impressum.page header h1 {
         margin: 20px 0;
         font-size: 37px
     }
 }
 @media (max-width: 350px) {
-    .imprint.page header h1 {
+    .impressum.page header h1 {
         font-size: 35px
     }
 }
-.imprint.page .content {
+.impressum.page .content {
     min-height: 500px;
     min-height: 65vh
 }
-.imprint.page p {
+.impressum.page p {
     font-weight: 200;
     -webkit-font-smoothing: antialiased;
     white-space: pre-line;
@@ -23956,7 +23971,7 @@ span.footer-line {
     color: #4D4C4C
 }
 @media (max-width: 600px) {
-    .imprint.page p {
+    .impressum.page p {
         font-size: 16px
     }
 }
@@ -24663,16 +24678,22 @@ html:not(.device) .anim-link a:after {
     left: 8px;
     z-index: 1;
     position: absolute;
-    bottom: 8px;
     width: 108%;
     height: 10px;
-    top: 50%;
-    margin-top: -1px;
-    background: #575757;
-    -webkit-transition: -webkit-transform 0.65s 0s cubic-bezier(0.93, 0.01, 0, 0.98);
-    transition: -webkit-transform 0.65s 0s cubic-bezier(0.93, 0.01, 0, 0.98);
-    transition: transform 0.65s 0s cubic-bezier(0.93, 0.01, 0, 0.98);
-    transition: transform 0.65s 0s cubic-bezier(0.93, 0.01, 0, 0.98), -webkit-transform 0.65s 0s cubic-bezier(0.93, 0.01, 0, 0.98);
+    top: 0%;
+    margin-top: 0px;
+    background: #c4c4c4;
+    transition: 
+      transform 0.8s cubic-bezier(1,0,.37,1) 0.2s,
+      right 0.2s cubic-bezier(.04,.48,0,1) 0.6s,
+      left 0.4s cubic-bezier(.04,.48,0,1) 0.6s;
+      -webkit-transition: -webkit-transform 0.65s 0.48s cubic-bezier(0.93, 0.01, 0, 0.98);
+    transition: -webkit-transform 0.65s 0.48s cubic-bezier(0.93, 0.01, 0, 0.98);
+    transition: transform 0.65s 0.48s cubic-bezier(0.93, 0.01, 0, 0.98);
+    transition: transform 0.65s 0.48s cubic-bezier(0.93, 0.01, 0, 0.98), -webkit-transform 0.65s 0.48s cubic-bezier(0.93, 0.01, 0, 0.98);
+
+
+    
     -webkit-transform-origin: 0 1px;
     -ms-transform-origin: 0 1px;
     transform-origin: 0 1px;
@@ -24792,18 +24813,14 @@ html.safari:not(.device) .anim-link a:after {
     display: none !important
 }
 
-.underlined-incentive{
-  position: relative;
-  float: right;
-  padding: 0px 12px;
-  margin-top: -10px;
-  margin-right: 15px;
-  margin-bottom: 8px;
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;display: inline;
-  color: #F5A623;
-  text-decoration: underline;
-  text-decoration-color: #005C56;
+.upper-incentive{
+    float: right;
+    top: -24px;
+    right: 28px;
+
 }
+@media (max-width: 768px){
+    .upper-incentive{
+        display: none;
+    }
+} 
