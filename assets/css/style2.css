@@ -1066,17 +1066,17 @@ div.lz.lazyloaded {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 964px;
+    width: auto;
     max-width: 100%
 }
 @media (max-width: 767px) {
     .container-app {
-        width: 592px
+        width: auto;
     }
 }
 @media (max-width: 768px) {
     .container-app:not(.late) {
-        width: 592px
+        width: auto
     }
 }
 @media (min-width: 769px) {
@@ -8347,7 +8347,7 @@ html:not(.device) .menu ul.page-links a:hover:before {
     margin: 0;
     padding: 0;
     display: block;
-    position: relative
+    position: relative;
 }
 .home .project .title {
     max-width: 100%;
@@ -21344,13 +21344,27 @@ span.footer-line {
 .pages-wrapper .page p.content-text {
     font-size: 18px;
     line-height: 1.8;
-    font-family: "copernicus", serif;
-    color: #4D4C4C
+    font-family: "circular", serif;
+    color: #979797
 }
 @media (max-width: 768px) {
     .pages-wrapper .project p.content-text,
     .pages-wrapper .page p.content-text {
         font-size: 16px;
+        line-height: 1.7
+    }
+}
+.pages-wrapper .project h4.content-text,
+.pages-wrapper .page h4.content-text {
+    font-size: 24px;
+    line-height: 1.8;
+    font-family: "circular", serif;
+    color: #979797
+}
+@media (max-width: 768px) {
+    .pages-wrapper .project h4.content-text,
+    .pages-wrapper .page h4.content-text {
+        font-size: 20px;
         line-height: 1.7
     }
 }
@@ -21371,6 +21385,63 @@ span.footer-line {
     .pages-wrapper .page .content-group {
         padding-bottom: 25px
     }
+}
+.centered{
+
+}
+.hero{
+    min-height: 100%;
+}
+#highlight{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+.filled-button{
+    border-radius: 5px;
+    background-color: #005C56;
+    border-color: #005C56;
+    margin:15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.filled-button:hover{
+    background-color: #fff;
+    transition-duration: 2s;
+}
+#applicationTitle .under{
+    position: absolute;
+    border-style: 7px solid;
+    border-color: #0005c4
+    width: 400px;
+    height: 400px;
+}
+#applicationTitle .over{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+.bg-icon{
+    background-image: "assets/images/media_content/Background.png"
+}
+#headline{
+    padding-right: 140px;
+    margin-top: 0px;
+}
+#feat-text{
+    margin-top: 0px;
+    padding-right: 140px;
+}
+#green-title{
+    color: #005c56 !important;
 }
 .pages-wrapper .project .labeled-content,
 .pages-wrapper .page .labeled-content {
@@ -21794,7 +21865,7 @@ span.footer-line {
     }
 }
 .careers.page .after-header {
-    padding-top: 60px
+    padding-top: 90px
 }
 @media (max-width: 768px) {
     .careers.page .after-header {
