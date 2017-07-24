@@ -20920,7 +20920,7 @@ footer .columns {
 }
 @media (max-width: 767px) {
     footer .columns {
-        padding-left: 35%
+        padding-left: 0;
     }
     footer .columns .column {
         width: 50%;
@@ -24748,7 +24748,7 @@ span.footer-line {
     margin-top: 3px !important
 }
 .anim-link.grey-a .link-line {
-    background-color: #313131
+    background-color: #313131;
 }
 .anim-link.grey-soft .link-line {
     background-color: #DCDCDC
@@ -24808,6 +24808,9 @@ html:not(.device) .anim-link a:after {
 }
 html:not(.device) .anim-link.grey-a a:after {
     background: #313131
+}
+.grey-a{
+    color:grey;
 }
 html:not(.device) .anim-link.grey-soft .link-line,
 html:not(.device) .anim-link.grey-soft a:after {
