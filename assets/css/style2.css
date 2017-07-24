@@ -20978,6 +20978,15 @@ footer .columns .links .link a:hover {
         display: none
     }
 }
+#home_group{
+    margin-left: -50px;
+    margin-top:-50px;
+}
+@media (max-width: 780px) {
+    #home_group{
+    display: none;
+    }
+}
 .topspaced{
     margin-top: 140px;
 }
