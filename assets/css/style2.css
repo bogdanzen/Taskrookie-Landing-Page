@@ -9104,7 +9104,7 @@ html:not(.device) .anim-link.post-anim-link a:after {
     white-space: pre-line;
     font-size: 16px;
     line-height: 1.9;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     color: #4D4C4C
 }
 .open-project .m-e-w {
@@ -9771,7 +9771,7 @@ html:not(.device) .anim-link.post-anim-link a:after {
     padding: 0;
     margin: 0;
     line-height: 1.6;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     font-weight: 400;
     font-size: 42px;
     color: #000
@@ -10828,7 +10828,7 @@ html:not(.device) .anim-link.post-anim-link a:after {
     padding: 0 0 20px;
     margin: 0 0 40px;
     line-height: 1.6;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     font-weight: 400;
     font-size: 42px;
     color: #DCDCDC;
@@ -11327,7 +11327,7 @@ html:not(.device) .anim-link.post-anim-link a:after {
     display: block;
     text-align: center;
     line-height: 1.4;
-    font-family: "copernicus", serif
+    font-family: "circular", serif
 }
 @media (max-width: 768px) {
     .postly-project .study-case .graph-block h3 {
@@ -11437,7 +11437,7 @@ html:not(.device) .anim-link.post-anim-link a:after {
     text-align: center;
     line-height: 1.4;
     font-size: 42px;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     margin-top: 100px;
     padding-bottom: 40px;
     margin-bottom: 0;
@@ -11764,7 +11764,7 @@ html:not(.device) .anim-link.post-anim-link a:after {
     display: block;
     line-height: 1.4;
     font-size: 96px;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     margin-top: 170px;
     padding-bottom: 5px;
     margin-bottom: 100px
@@ -12580,7 +12580,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     width: 750px;
     max-width: 100%;
     margin: 0 auto;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     line-height: 1.3
 }
 .iris-project .study-case .flow-title h3 span {
@@ -13272,7 +13272,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     padding: 0 0 20px;
     margin: 0 0 40px;
     line-height: 1.6;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     font-weight: 400;
     font-size: 42px;
     color: rgba(250, 250, 250, 0.3) !important;
@@ -14430,7 +14430,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     transform: translateY(-38%);
     font-size: 256px;
     color: #CEA883;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     z-index: 8
 }
 @media (max-width: 900px) {
@@ -14753,7 +14753,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
 .iris-project .study-case .after-final-designs .grap-text p {
     z-index: 90;
     line-height: 1.3;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     font-size: 42px;
     display: block;
     position: relative;
@@ -14805,7 +14805,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     display: block;
     padding-top: 40px;
     line-height: 1.3;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     font-size: 42px;
     display: block;
     position: relative;
@@ -14844,7 +14844,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
 .iris-project .study-case .after-final-designs .visit-iris-wrapper .visit-iris-link-wrapper a {
     color: #CEA883;
     line-height: 1.3;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     font-size: 42px;
     display: block;
     position: relative;
@@ -15140,7 +15140,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     position: relative;
     display: block;
     padding-bottom: 30px;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     z-index: 99
 }
 .guess-project .study-case .functions h3:after {
@@ -15423,7 +15423,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     position: relative;
     display: block;
     width: 100%;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     margin: 0 0 20px
 }
 @media (max-width: 900px) {
@@ -15453,7 +15453,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     width: 100%;
     height: 72px;
     overflow: hidden;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     color: #DCDCDC;
     margin: 0 0 80px
 }
@@ -16300,7 +16300,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     display: block;
     text-align: center;
     line-height: 1.4;
-    font-family: "copernicus", serif
+    font-family: "circular", serif
 }
 @media (max-width: 900px) {
     .guess-project .study-case .digital-pos-wrapper h3.quote {
@@ -16789,7 +16789,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     display: block;
     line-height: 1.4;
     font-size: 96px;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     padding-bottom: 5px;
     margin: 0;
     z-index: 99
@@ -17371,7 +17371,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     display: block;
     padding-top: 40px;
     line-height: 1.3;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     font-size: 42px;
     display: block;
     position: relative;
@@ -17405,7 +17405,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
 .guess-project .study-case .visit-guess-wrapper .visit-guess-link-wrapper a {
     color: #f03434;
     line-height: 1.3;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     font-size: 42px;
     display: block;
     position: relative;
@@ -17728,7 +17728,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
 }
 .yapital-project .study-case .confesion-list .confesion .text {
     font-size: 26px;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     padding: 0;
     margin: 0 0 16px;
     line-height: 1.18
@@ -19521,7 +19521,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     max-width: 100%;
     margin: 0;
     text-align: left;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     line-height: 1.3;
     font-size: 52px
 }
@@ -20395,7 +20395,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     display: inline-block;
     line-height: 1.4;
     font-size: 52px;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     margin-top: 150px;
     padding-bottom: 10px;
     margin-bottom: 0
@@ -20587,7 +20587,7 @@ html:not(.device) .postly-project .study-case #postly-anims-container.anim-2 .an
     font-size: 42px;
     margin-top: 0;
     padding-top: 0;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     padding-bottom: 70px;
     margin-bottom: 70px
 }
@@ -20978,6 +20978,17 @@ footer .columns .links .link a:hover {
         display: none
     }
 }
+.topspaced{
+    margin-top: 140px;
+}
+@media (max-width: 480px) {
+    .topspaced{
+    margin-top: 80px;
+    }
+}
+h4 .grey{
+    color:grey;
+}
 footer .logo-bottom {
     display: none
 }
@@ -21217,7 +21228,7 @@ span.footer-line {
 .pages-wrapper .page h3.case-study-title {
     z-index: 90;
     line-height: 1.4;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     font-size: 42px;
     display: block;
     position: relative
@@ -21382,9 +21393,9 @@ span.footer-line {
         line-height: 1.7
     }
 }
-.pages-wrapper .project .copernicus,
-.pages-wrapper .page .copernicus {
-    font-family: "copernicus", serif
+.pages-wrapper .project .circular,
+.pages-wrapper .page .circular {
+    font-family: "circular", serif
 }
 .pages-wrapper .project .section-image,
 .pages-wrapper .page .section-image {
@@ -21593,7 +21604,7 @@ span.footer-line {
     display: inline-block;
     font-size: 18px;
     line-height: 1.3;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     color: #4D4C4C
 }
 @media (max-width: 768px) {
@@ -24052,7 +24063,7 @@ span.footer-line {
     white-space: pre-line;
     font-size: 18px;
     line-height: 1.9;
-    font-family: "copernicus", serif;
+    font-family: "circular", serif;
     color: #4D4C4C
 }
 @media (max-width: 600px) {
@@ -24521,7 +24532,7 @@ span.footer-line {
     padding: 0 15px;
     font-size: 18px;
     font-weight: 600;
-    font-family: "copernicus", serif
+    font-family: "circular", serif
 }
 .video-holder .video-content {
     position: absolute;
