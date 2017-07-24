@@ -178,23 +178,8 @@ alt="taskrookie logo")-->
                             </div>
                         </div>
                     </section>-->
-                    <div class="more-cases-wrapper grey-bg">
-                        <div class="container">
-                            <h3 class="case-study-subtitle">More Cases</h3>
-                            <div class="row clearfix">
-                                <div class="col-md-late-6 next-case-wrapper">
-                                    <div class="next-case guess"><img class="letter-g" src="assets/images/svg/projects/guess/letter.svg">
-                                        <div class="next-case-info">
-                                            <div class="wrapper">
-                                                <h2 class="headline guess-c">Guess</h2>
-                                                <h3 class="title">Introducing Connect</h3>
-                                            </div>
-                                        </div>
-                                        <a class="case-link" href="/projects/guess" data-navigo=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="hero centered-wrapper-md">
+                        <div class="container" id="home-project-container"></div>
                     </div>
                     <div class="content white-bg after-header clearfix">
                         <div class="home-section">
@@ -229,10 +214,21 @@ alt="taskrookie logo")-->
                                             </div>
                                         </div>
                                         <div class="col-6" id="feat-text">
-                                            <h4 class="content-text">1. Tell us what you need</h4>
+                                            <h4 class="">1. Tell us what you need</h4>
                                             <p class="content-text">The process of posting is simple and straight-forward.</p>
                                             <div style="padding-bottom: 10px;"></div>
                                             <p class="content-text">We ask for basic information regarding the task, giving only relevant fields for each and every task based on the title.</p>
+                                        </div>
+
+                                        <div class="col-6" id="">
+                                            <div class="images">
+                                                <div class="under" id="applicationTitle">
+                                                    <a class="under"></a>
+                                                </div>
+                                                <div class="over" id="applicationTitle">
+                                                    <img src="assets/images/media_content/app_Title.png" width="350px">
+                                                </div>
+                                            </div>
                                         </div>
 
                                     </div>
@@ -246,6 +242,68 @@ alt="taskrookie logo")-->
 
                     </script>
                 </div>
+                <!-- Project templates-->
+                <!-- Project Postly Home Template-->
+                <script id="project-postly-home" type="text/x-handlebars-template">
+                    <div class="project postly-project">
+                        <div class="out-wrapper centered-wrapper-md clearfix to-animate-group">
+                            <div class="wrapper clearfix">
+                                <div class="col-md-6 hero-left">
+                                    <div class="centered-wrapper-md">
+                                        <div class="wrapper">
+                                            <header>
+                                                <div class="d-b to-animate slide-right d-1 f-3">
+                                                    <h2 class="headline d-ib to-animate filler-group"><span class="filled d-4">Introducing</span><span class="filler primary d-1 f-1"></span></h2>
+                                                </div>
+                                                <div class="d-b to-animate slide-right lg-slide d-3 f-2">
+                                                    <h1 class="title d-ib to-animate filler-group"><span class="filled d-5">Taskrookie</span><span class="filler black d-1 f-4"></span></h1>
+                                                </div>
+                                            </header>
+                                            <div class="d-ib">
+                                                <div class="project-link to-animate slide-right d-4 f-3">
+                                                    <a class="d-ib" href="/projects/postly" data-navigo="">
+                                                        <div class="text-span d-ib to-animate filler-group"><span class="filled d-7">View app</span><span class="filler black d-3 f-2"></span>
+                                                        </div>
+                                                        <div class="link-line d-ib to-animate filler-group"><span class="filler simple primary d-1 f-2"></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="space-holder"></div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="project-letter-wrapper to-animate slide-right lg-slide d-4 f-6">
+                                        <div class="project-letter to-animate filler-group"><img class="filled d-7" src="assets/images/svg/projects/postly/letter.svg"><span class="filler primary-soft-dark d-4 f-2 bg-slower"></span>
+                                        </div>
+                                    </div>
+                                    <div class="video-out-wrapper">
+                                        <div class="video-out-inner-wrapper">
+                                            <div class="video-wrapper to-animate slide-right md-slide d-3 f-3">
+                                                <div class="in-video-wrapper">
+                                                    <div class="to-animate delay-shadow d-10">
+                                                        <div class="video to-animate filler-group">
+                                                            <div class="filled d-6">
+                                                                <div class="video-poster" id="postly-video-bg"></div>
+                                                                <video class="html5-video" id="postly-video" loop="" muted="" autoplay="">
+                                                                    <source data-src="assets/others/videos/postly-home/postly-home.mp4" type="video/mp4">
+                                                                        <source data-src="assets/others/videos/postly-home/postly-home.webm" type="video/webm">
+                                                                            <source data-src="assets/others/videos/postly-home/postly-home.ogv" type="video/ogv">
+                                                                </video>
+                                                            </div><span class="filler grey d-2 f-4"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="video-link" href="/projects/postly" data-navigo=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </script>
 
 
 
@@ -538,19 +596,45 @@ alt="taskrookie logo")-->
                             </div>
                         </div>
                     </script>
+
+
+                <!--        END CAREERS PAGE    //Please note, the script does not work without the page route div     -->
+
+
+
+                <!--        START IMPRESSUM PAGE     -->
+
+
+
                 <div class="impressum page route-section" id="impressum-container"></div>
                     <script id="page-impressum" type="text/x-handlebars-template">
                       <a>adsaf</a>
                     </script>
                 </div>
+
+                <!--        END IMPRESSUM PAGE    //Please note, the script does not work without the page route div     -->
+
+
+
+
+                <!--        START CONTACT PAGE    -->
+
+
                 <div class="contact page route-section" id="contact-container"></div>
                     <script id="page-contact" type="text/x-handlebars-template">
+
+                    <div class="content white-bg after-header clearfix">
+                        <div class="home-section">
+                            <div class="container">
+                                <div class="content">
+                                    <div class="content-group">
+                                        <h1 id="green-title" class="">Our system</h1>
                         <div class="inner-page">
                             <div class="container">
                                 <div class="container-app">
                                     <div class="clearfix">
                                         <div class="col-md-6 contact-part">
-                                            <h2>Contact Us</h2>
+                                            <h1 id="green-title">Contact Us</h1>
                                             <div class="out-info-wrapper clearfix">
                                                 <div class="info-wrapper clearfix">
                                                     <div class="contact-block">
@@ -596,7 +680,7 @@ alt="taskrookie logo")-->
                 </div>
                 <div class="comingsoon page route-section" id="comingsoon-container"></div>
                     <script id="page-comingsoon" type="text/x-handlebars-template">
-                    <a>adsaf</a>
+                    <a></a>
                     </script>
                 </div>
 
@@ -607,7 +691,38 @@ alt="taskrookie logo")-->
 
             </div>
         </div>
-        
+        <footer style="display:none">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="wrapper clearfix">
+                        <div class="columns">
+                            <div class="clearfix">
+                                <div class="row">
+                                    <div class="anim-link grey-a sp-b-sm"><a class="d-ib anim-link.voony-a" href="/about" data-navigo=""><span class="text-span">About Us</span><div class="link-line d-ib"></div></a></div>
+                                    <span class="space-30"></span>
+                                    <div class="anim-link grey-a sp-b-sm"><a class="d-ib anim-link" href="/taskforce" data-navigo=""><span class="text-span">Pre-launch Tasks</span></a></div>
+                                    <span class="space-30"></span>
+                                     <div class="anim-link grey-a sp-b-sm"><a class="d-ib anim-link" href="/comingsoon" data-navigo=""><span class="text-span">Coming Soon</span></a></div>
+                                    <span class="space-30"></span>
+                                     <div class="anim-link grey-a sp-b-sm"><a class="d-ib anim-link" href="/comingsoon" data-navigo=""><span class="text-span">Careers</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="copyright-wrapper">
+                        <div class="wrapper">
+                            
+                            <p class="copyright">© 2017 Taskrookie Technologies GmbH</p>
+                            <a class="impressum-link" href="/impressum" data-navigo=""><span class="text-span">Impressum</span></a>
+                            <!--<a class="presskit-link" href="/presskit" data-navigo="">Press Kit</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     
     <!--asdfasdfaasdf -->
     

@@ -288,6 +288,7 @@ var animFrame = window.requestAnimationFrame || window.webkitRequestAnimationFra
     routes = {
         home: {
             containerId: "home-container",
+            projectsContainerId: "home-project-container",
             clear: function() {
                 helpers.removeStateById(routes.home.containerId, "route-on"), document.getElementById(routes.home.containerId).innerHTML = ""
             },
